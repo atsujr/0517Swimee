@@ -13,6 +13,7 @@
 		3B3C57CD2A14D32D00478DFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B3C57CB2A14D32D00478DFA /* Main.storyboard */; };
 		3B3C57CF2A14D32E00478DFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B3C57CE2A14D32E00478DFA /* Assets.xcassets */; };
 		3B3C57D22A14D32E00478DFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B3C57D02A14D32E00478DFA /* LaunchScreen.storyboard */; };
+		3B3C57DC2A14D42D00478DFA /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3C57DB2A14D42D00478DFA /* QuizViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3B3C57CE2A14D32E00478DFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B3C57D12A14D32E00478DFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B3C57D32A14D32E00478DFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B3C57DB2A14D42D00478DFA /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		3B3C57C42A14D32D00478DFA /* Count */ = {
 			isa = PBXGroup;
 			children = (
+				3B3C57DB2A14D42D00478DFA /* QuizViewController.swift */,
 				3B3C57C52A14D32D00478DFA /* AppDelegate.swift */,
 				3B3C57C72A14D32D00478DFA /* SceneDelegate.swift */,
 				3B3C57C92A14D32D00478DFA /* ViewController.swift */,
@@ -141,6 +144,7 @@
 				3B3C57CA2A14D32D00478DFA /* ViewController.swift in Sources */,
 				3B3C57C62A14D32D00478DFA /* AppDelegate.swift in Sources */,
 				3B3C57C82A14D32D00478DFA /* SceneDelegate.swift in Sources */,
+				3B3C57DC2A14D42D00478DFA /* QuizViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
